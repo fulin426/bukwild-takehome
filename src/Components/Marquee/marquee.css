@@ -1,0 +1,26 @@
+.marquee-container {
+  display: flex;
+}
+
+.marquee-main-sub-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.marquee-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5.25rem;
+  color: white;
+  width: 50%;
+}
+
+.marquee-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+  color: white;
+  width: 50%;
+}
