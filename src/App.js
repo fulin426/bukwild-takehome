@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState([]);
-  const [backGround, setBackGround] = useState('');
+  const [backGround, setBackGround] = useState(' ');
 
   useEffect(() => {
     fetch('content.json', {
